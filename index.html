@@ -27,19 +27,30 @@
     <section class="about fade-in">
         <div class="container">
             <h2><i class="fas fa-user"></i> Tentang Saya</h2>
-            <p id="bio">Perkenalkan nama saya Muhammad Safril, saya merupakan mahasiswa yang sedang menempuh pembelajaran akademik di Universitas Haluoleo. Saya memiliki minat di bidang teknologi dan pengembangan WEB.Dengan demikian saya ingin meningkatkan skill saya pada bidang perancangan dan pembangunan WEB</p>
+            <p id="bio">Perkenalkan nama saya Muhammad Safril, saya merupakan mahasiswa yang sedang menempuh pembelajaran akademik di Universitas Haluoleo. Saya memiliki minat di bidang teknologi dan pengembangan WEB. Dengan demikian saya ingin meningkatkan skill saya pada bidang perancangan dan pembangunan WEB</p>
         </div>
     </section>
 
     <section class="skills fade-in">
         <div class="container">
             <h2><i class="fas fa-code"></i> Keterampilan</h2>
-            <ul class="skills-list">
-                <li class="hover-effect"><i class="fab fa-html5"></i> HTML, CSS, JavaScript</li>
-                <li class="hover-effect"><i class="fab fa-php"></i> PHP</li>
-                <li class="hover-effect"><i class="fas fa-database"></i> MySQL</li>
-                <li class="hover-effect"><i class="fab fa-laravel"></i> Laravel</li>
-            </ul>
+            <table border="1" class="skills-table" style="width: 100%; text-align: left; border-collapse: collapse;">
+                <tr>
+                    <th style="padding: 10px;">Teknologi</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><i class="fab fa-html5"></i> HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><i class="fab fa-php"></i> PHP</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><i class="fas fa-database"></i> MySQL</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><i class="fab fa-laravel"></i> Laravel</td>
+                </tr>
+            </table>
         </div>
     </section>
 
@@ -63,6 +74,24 @@
                 <li><a href="https://www.instagram.com/s.ya.fr.il?igsh=MWJrbm8yZ2g3NTdkNQ==" target="_blank" class="hover-effect"><i class="fab fa-instagram"></i> Instagram</a></li>
                 <li><a href="https://github.com/muhammadsafril/muhammadsafril.github.io" target="_blank" class="hover-effect"><i class="fab fa-github"></i> GitHub</a></li>
             </ul>
+        </div>
+    </section>
+
+    <section class="contact-form fade-in">
+        <div class="container">
+            <h2><i class="fas fa-envelope"></i> Hubungi Saya</h2>
+            <form action="#" method="post" style="display: flex; flex-direction: column; max-width: 400px; gap: 10px;">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                
+                <button type="submit" style="padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Kirim</button>
+            </form>
         </div>
     </section>
 
